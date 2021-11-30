@@ -1,0 +1,19 @@
+{
+	"run": {
+		"marp": [
+			"render -m marp --preserve -f pdf"
+		],
+		"mw": [
+			"render -m mediawiki --preserve"
+		]
+	},
+    "test": {
+		"marp": [
+			"render -m marp --test --preserve"
+		],
+		"mw": [
+			"render -m mediawiki --test --preserve"
+		]
+	}
+}
+

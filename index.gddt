@@ -1,0 +1,11 @@
+$read(inc/header.gddt)
+
+$read(inc/abstract.gddt)
+
+$newpage()
+
+$read(inc/struct.gddt)
+
+$newpage()
+
+$read(inc/ui.gddt)

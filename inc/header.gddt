@@ -1,0 +1,2 @@
+$ifenv(USE_TITLE,$include(title.gddt))
+$ifmod(mediawiki,$upload_image())
