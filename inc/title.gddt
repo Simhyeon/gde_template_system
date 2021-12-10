@@ -1,0 +1,2 @@
+$ifmod(marp,$styles(layout.css,table.css))
+$title(This is title,This is subtitle)

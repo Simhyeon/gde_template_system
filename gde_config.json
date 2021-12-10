@@ -1,18 +1,18 @@
 {
 	"run": {
 		"marp": [
-			"render -m marp --preserve -f pdf"
+			"render -m marp --preserve -f pdf -E slide.env"
 		],
 		"mw": [
-			"render -m mediawiki --preserve"
+			"render -m mediawiki --preserve -E wiki.env"
 		]
 	},
     "test": {
 		"marp": [
-			"render -m marp --test --preserve"
+			"render -m marp --test --preserve -E slide.env"
 		],
 		"mw": [
-			"render -m mediawiki --test --preserve"
+			"render -m mediawiki --test --preserve -E wiki.env"
 		]
 	}
 }
